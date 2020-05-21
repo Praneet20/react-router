@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text&display=swap');
+html{
+  height: 100%;
+}
+:root{
+  --yummy-burgundy: #512;
+  --dark-red: #813;
+  --tomato:#e44;
+  --orange:#f80;
+  --dark-tomato: #c34;
+  --deep-dark-blue:#022;
+  --deep-purple:#313;
+--deep-dark: #012;
+--dark: #333;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'Big Shoulders Text', cursive;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home-main-container{
+  background: url(./background.jpg) no-repeat center/cover;
+  height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
