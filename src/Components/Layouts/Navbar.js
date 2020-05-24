@@ -16,17 +16,17 @@ const Navbar = () =>
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
-      <li className="nav-item active">
-        <NavLink className="nav-link" to="/">Home<span className="sr-only">(current)</span></NavLink>
+      <li className="nav-item">
+        <NavLink className="nav-link" eaxct to="/">Home</NavLink>
       </li>
       <li className="nav-item">
-        <NavLink className="nav-link" to="/">Speakers</NavLink>
+        <NavLink className="nav-link" to="/judgeslist">Judges</NavLink>
       </li>
       <li className="nav-item">
-        <NavLink className="nav-link" to="/">Events</NavLink>
+        <NavLink className="nav-link" to="/events">Events</NavLink>
       </li>
       <li className="nav-item">
-        <NavLink className="nav-link" to="/">About</NavLink>
+        <NavLink className="nav-link" to="/about">About</NavLink>
       </li>
      
     </ul>
@@ -44,8 +44,13 @@ const NavbarContainer = styled.div`
     color: white !important;
     &:hover{
         background: var(--tomato) !important;
-        color: white;
-    };
+        
+}
+.active{
+    background: var(--tomato) !important;
+    
+}
+
 }
 img{
     width: 3.5rem;
@@ -53,4 +58,5 @@ img{
 nav{
     background: var(--yummy-burgundy) !important;
 }
+
 `;
