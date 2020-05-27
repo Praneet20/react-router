@@ -5,6 +5,7 @@ import avatar1 from './avatar1.png';
 import avatar2 from './avatar2.png';
 import {Button} from './Button';
 import Footer from '../Layouts/Footer';
+import Avatar from './Avatar';
 
 const JudgesList = () =>
 {
@@ -23,7 +24,7 @@ return(
         </h2>
 <h4 className="text-center">Category: <b>Cakes</b></h4>
 {/* <p className="text-center">He is the owner of the Little Bakery and the Masterchef winner</p> */}
-<Link to="/">
+<Link to="/judges/info/0">
     <Button className="btn btn-primary text-uppercase text-center">More Information about John</Button>
 </Link>
     </div>
@@ -39,7 +40,7 @@ return(
         </h2>
 <h4 className="text-center">Category: <b>Shakes</b></h4>
 {/* <p className="text-center">She is the owner of the Hot Shot  Bakery and winner of many cooking contests.</p> */}
-<Link to="/">
+<Link to="/judges/info/1">
     <Button className="btn btn-primary text-uppercase text-center">More Information about Lilly</Button>
 </Link>
     </div>
