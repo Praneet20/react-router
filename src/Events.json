@@ -1,0 +1,18 @@
+{
+    "events": [
+        {
+        "Cake": {
+        "title": "Cake Baking Competition!!",
+        "description": "Cake Baking Competion will take place at the Main lobby of Little Bakery. Contstants should report 1 hour before the beginning of the competition.Competition will start at 6pm, Tuesday",
+        "image":"src/cakes.png"
+        }},
+        {
+            "Shake": {
+            "title": "Shake Baking Competition!!",
+            "description": "Shake making Competion will take place at the Main lobby of Little Bakery. Contstants should report 1 hour before the beginning of the competition.Competition will start at 8pm, Tuesday",
+            "image":"/shakes.png"
+            }}
+
+
+    ]
+}
