@@ -36,7 +36,7 @@ return(
         </div>
 
     </div>
-    <button className="btn btn-primary text-uppercase">Reserve your seat</button>
+    <button className="btn btn-primary text-uppercase" onClick={() => ""}>Reserve your seat</button>
 </form>
 </div>
 </div>
