@@ -23,7 +23,7 @@ const JUDGES = [
         spkimg: avatar2,
         name: "Lilly Dsouza",
         occupation: "Head Chef and owner at yoyo Bakery",
-        description: "He is detailed person, he is perfectionist."
+        description: "Chef Dsouza has opened a string of successful restaurants across the globe, from the UK and France to Singapore and Hong Kong, to the United States. Gragory has also become a star of the small screen both in the UK and internationally, with shows such as Kitchen Nightmares, Hell’s Kitchen, Hotel Hell and MasterChef US."
    
    
        }
